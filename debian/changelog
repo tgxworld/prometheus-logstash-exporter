@@ -1,0 +1,5 @@
+prometheus-logstash-exporter (0.1.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Alexey Remizov <alexey@remizov.org>  Tue, 12 Sep 2017 00:49:07 +0300
