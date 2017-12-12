@@ -116,7 +116,7 @@ func (e *Exporter) collectPipeline(pipelineName string, data interface{}, ch cha
 
 	labels := prometheus.Labels{"pipeline": pipelineName}
 
-	for _, k := range []string{"events", "reloads", "queue"} {
+	for _, k := range []string{"events", "reloads", "queue", "dead_letter_queue"} {
 		e.collectTree("pipeline_"+k, stats[k], labels, ch)
 	}
 
